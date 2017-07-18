@@ -1,0 +1,24 @@
+body{
+  font-family: monospace;
+  background-color: powderblue;
+  text-align: center;
+}
+
+h1{
+  color: red;
+  font-weight: bold;
+}
+
+.young{
+  border: 3px solid black;
+  padding: 30px;
+  margin: auto;
+}
+
+.old{
+  width: 275px;
+  height: 404px;
+  border: 3px solid black;
+  padding: 2%;
+  margin: auto;
+}
