@@ -1,0 +1,27 @@
+<html>
+  <style>
+    form{
+      text-align: center;
+      font-size: 36px;
+      padding-top: 45px;
+    }
+    input{
+      height: 40px;
+      width: 300px;
+      font-size: 15px;
+      text-align: center;
+    }
+    button{
+      height: 50px;
+      width: 200px;
+      font-size: 20px;
+    }
+  </style>
+  <body>
+    <form method=post>
+      {{ greeting }}
+      <p><input type="text" name="search"/></p>
+      <button type="submit">Search</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+/*div{
+  height: 300px;
+  width: 300px;
+  background-color: green;
+}*/
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
+
+form{
+  text-align: center;
+  font-size: 15px;
+}
+
+#favorite{
+  text-align: center;
+}
+
+body{
+  background-color: green;
+}

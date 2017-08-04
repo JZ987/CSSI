@@ -1,0 +1,44 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: none;
+  padding: none;
+}
+
+body{
+}
+
+header{
+  text-align: center;
+  font-size: 36px;
+  font-family: fantasy;
+  animation: colorchange 15s infinite;
+  padding-top: 15px;
+}
+
+hr{
+  width: 650px;
+  display: block;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.column{
+  align: center;
+  width: 800px;
+  height: 80%;
+  border: 3px solid black;
+}
+
+@keyframes colorchange {
+  0%   {color: red;}
+  20%  {color: yellow;}
+  40%  {color: aqua;}
+  60%  {color: lime;}
+  80% {color: fuchsia;}
+  100% {color: red;}
+}

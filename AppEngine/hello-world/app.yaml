@@ -1,0 +1,23 @@
+application: first-project-174720
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+default_expiration: "10s"
+
+handlers:
+
+- url: /icon.png
+  static_files: icon.png
+  upload: icon.png
+
+- url: /resources
+  static_dir: static_folder
+
+- url: .*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"

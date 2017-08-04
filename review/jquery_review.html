@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>jQuery Review</title>
+    <link rel="stylesheet" href="jquery_review.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to the website,
+      <span>Stranger!!</span>
+    </h1>
+    <form onkeypress="return event.keyCode != 13" name="userGreeting">
+      <label>What is your name?</label>
+      <input type="text" id="username"/>
+      <input type="button" id="ok_button" value="Enter"/>
+    </form>
+    <div id="favorite">
+      <form name="listFav">
+        <label>What are your favorite items? Press enter to submit to the list!</label><br>
+        <input  id="items" type="text"/>
+      </form>
+      <h2>Your Favorite items:</h2>
+      <h3></h3>
+    </div>
+    <script src="jquery_review.js"></script>
+  </body>
+</html>

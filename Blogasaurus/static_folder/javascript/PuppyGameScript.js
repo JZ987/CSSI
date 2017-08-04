@@ -8,9 +8,7 @@ function move(){
     $("h2").text("CHASE AFTER IT!!");
   }
   $(".puppy").animate({
-    "margin-left": Math.random()*1000 + "px"
-  })
-  $(".puppy").animate({
+    "margin-left": Math.random()*1000 + "px",
     "margin-top": Math.random()*100 + "px"
   })
 }

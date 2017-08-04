@@ -1,0 +1,70 @@
+body{
+  text-align: center;
+  background-image: url("../images/background.jpg");
+}
+
+h1{
+  font-size: 50px;
+  background-image: url("http://trickvilla.com/wp-content/uploads/Light-Wood-Background.jpg");
+  animation: colorchange 15s infinite;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.link_group{
+  align-items: center;
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+#rain{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#runningCat{
+  top: 600px;
+  position: absolute;
+  height: 77px;
+  width: 110px;
+  animation: cat_run 6s linear infinite;
+}
+
+#runningDog{
+  top: 500px;
+  position: absolute;
+  margin-top: 25px;
+  animation: dog_run 6s linear infinite;
+}
+
+.link{
+  color: black;
+  font-family: arial;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT77ZWTx7k5nN5qukhqPSq1YX90KkUPuka7-5yZX_pF7NQhSXG6mg");
+  padding: 10px 20px;
+}
+
+@keyframes dog_run {
+  0% {left: -15%;}
+  100% {left: 105%;}
+}
+
+@keyframes cat_run {
+  0% {left: -24%;}
+  100% {left: 105%;}
+}
+
+@keyframes colorchange {
+  0%   {color: red;}
+  20%  {color: yellow;}
+  40%  {color: aqua;}
+  60%  {color: lime;}
+  80% {color: fuchsia;}
+  100% {color: red;}
+}
